@@ -1,0 +1,48 @@
+<?php
+
+namespace frontend\controllers;
+
+use Yii;
+use yii\web\Controller;
+use frontend\models\Test;
+
+
+class TestController extends \yii\web\Controller
+{
+    public function actionIndex()
+    {
+
+
+
+     //   $email = Yii::$app->params['adminEmail']; //получаем почту админа
+     //   echo $email; die;
+        //   return $this->render('index', ['list' => $list,]); //выводим(views->index) в шаблон
+        $max = Yii::$app->params['maxNewsInList']; //в params установили 2
+        $list = Test::getNewList($max);
+
+        return $this->render('index', ['list' => $list,]);
+    }
+
+    public function actionView($id)
+    {
+        $item = Test::getItem($id);
+
+        return $this->render('view', [
+            'item' => $item
+        ]);
+    }
+
+    public function actionMail()
+    {
+        $result = Yii::$app->mailer->compose()
+            ->setFrom('2018kiwitaxi@google.com')
+            ->setTo('den787@yandex.ru')
+            ->setSubject('Тема сообщения')
+            ->setHtmlBody('<b>текст сообщения в формате HTML</b>')
+            ->send();
+
+        var_dump($result);
+        die;
+
+    }
+}

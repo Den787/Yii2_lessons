@@ -1,0 +1,3376 @@
+2018-12-18 11:36:43 [-][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Class 'yii\console\controllers' not found in /var/www/project/console/controllers/MailerController.php:6
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-12-18 11:36:42 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '26'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 10233 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 10233 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545133002.7878
+    'REQUEST_TIME' => 1545133002
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-18 11:37:39 [-][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Class 'yii\console\controllers' not found in /var/www/project/console/controllers/MailerController.php:6
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-12-18 11:37:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '26'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 10233 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 10233 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545133059.8421
+    'REQUEST_TIME' => 1545133059
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-18 11:41:12 [-][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'console\controllers\MailerController' in file: /var/www/project/console/controllers/MailerController.php. Namespace missing? in /var/www/project/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/project/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('mailer')
+#4 /var/www/project/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('send')
+#5 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/project/yii(23): yii\base\Application->run()
+#9 {main}
+2018-12-18 11:41:11 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '26'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 10233 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 10233 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545133271.8014
+    'REQUEST_TIME' => 1545133271
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-18 11:42:17 [-][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'console\controllers\MailerController' in file: /var/www/project/console/controllers/MailerController.php. Namespace missing? in /var/www/project/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/project/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('mailer')
+#4 /var/www/project/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('send')
+#5 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/project/yii(23): yii\base\Application->run()
+#9 {main}
+2018-12-18 11:42:17 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '26'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 10233 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 10233 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545133337.5331
+    'REQUEST_TIME' => 1545133337
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-18 12:06:28 [-][-][-][error][Swift_TransportException] Swift_TransportException: Expected response code 220 but got an empty response in /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:445
+Stack trace:
+#0 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(358): Swift_Transport_AbstractSmtpTransport->assertResponseCode('', Array)
+#1 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(147): Swift_Transport_AbstractSmtpTransport->readGreeting()
+#2 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(113): Swift_Transport_AbstractSmtpTransport->start()
+#3 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(156): yii\swiftmailer\Mailer->getSwiftMailer()
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#6 /var/www/project/console/controllers/MailerController.php(17): yii\mail\BaseMessage->send()
+#7 [internal function]: console\controllers\MailerController->actionSend()
+#8 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#11 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /var/www/project/yii(23): yii\base\Application->run()
+#16 {main}
+2018-12-18 12:06:07 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '26'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 10233 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 10233 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545134767.7043
+    'REQUEST_TIME' => 1545134767
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 06:32:33 [-][-][-][error][Swift_TransportException] Swift_TransportException: Expected response code 220 but got an empty response in /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:445
+Stack trace:
+#0 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(358): Swift_Transport_AbstractSmtpTransport->assertResponseCode('', Array)
+#1 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(147): Swift_Transport_AbstractSmtpTransport->readGreeting()
+#2 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(113): Swift_Transport_AbstractSmtpTransport->start()
+#3 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(156): yii\swiftmailer\Mailer->getSwiftMailer()
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#6 /var/www/project/console/controllers/MailerController.php(17): yii\mail\BaseMessage->send()
+#7 [internal function]: console\controllers\MailerController->actionSend()
+#8 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#11 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /var/www/project/yii(23): yii\base\Application->run()
+#16 {main}
+2018-12-19 06:32:12 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545201132.5889
+    'REQUEST_TIME' => 1545201132
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 06:34:33 [-][-][-][error][Swift_TransportException] Swift_TransportException: Failed to authenticate on SMTP server with username "2018kiwitaxi@google.com" using 3 possible authenticators. Authenticator LOGIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b128sm3663801lfe.91 - gsmtp
+" in /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('MjAxODIwMThA\r\n', Array, Array, false, NULL)
+#2 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php(36): Swift_Transport_EsmtpTransport->executeCommand('MjAxODIwMThA\r\n', Array)
+#3 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_LoginAuthenticator->authenticate(Object(Swift_SmtpTransport), '2018kiwitaxi@go...', '20182018@')
+#4 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(113): Swift_Transport_AbstractSmtpTransport->start()
+#7 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(156): yii\swiftmailer\Mailer->getSwiftMailer()
+#8 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /var/www/project/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /var/www/project/console/controllers/MailerController.php(17): yii\mail\BaseMessage->send()
+#11 [internal function]: console\controllers\MailerController->actionSend()
+#12 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#16 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#17 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#18 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/project/yii(23): yii\base\Application->run()
+#20 {main}. Authenticator PLAIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b128sm3663801lfe.91 - gsmtp
+" in /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH PLAIN MjAx...', Array, Array, false, NULL)
+#2 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php(35): Swift_Transport_EsmtpTransport->executeCommand('AUTH PLAIN MjAx...', Array)
+#3 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_PlainAuthenticator->authenticate(Object(Swift_SmtpTransport), '2018kiwitaxi@go...', '20182018@')
+#4 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(113): Swift_Transport_AbstractSmtpTransport->start()
+#7 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(156): yii\swiftmailer\Mailer->getSwiftMailer()
+#8 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /var/www/project/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /var/www/project/console/controllers/MailerController.php(17): yii\mail\BaseMessage->send()
+#11 [internal function]: console\controllers\MailerController->actionSend()
+#12 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#16 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#17 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#18 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/project/yii(23): yii\base\Application->run()
+#20 {main}. Authenticator XOAUTH2 returned Swift_TransportException: Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b128sm3663801lfe.91 - gsmtp
+" in /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('RSET\r\n', Array, Array, false, NULL)
+#2 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(49): Swift_Transport_EsmtpTransport->executeCommand('RSET\r\n', Array)
+#3 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), '2018kiwitaxi@go...', '20182018@')
+#4 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(113): Swift_Transport_AbstractSmtpTransport->start()
+#7 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(156): yii\swiftmailer\Mailer->getSwiftMailer()
+#8 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /var/www/project/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /var/www/project/console/controllers/MailerController.php(17): yii\mail\BaseMessage->send()
+#11 [internal function]: console\controllers\MailerController->actionSend()
+#12 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#16 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#17 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#18 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/project/yii(23): yii\base\Application->run()
+#20 {main}. in /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:191
+Stack trace:
+#0 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#2 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(113): Swift_Transport_AbstractSmtpTransport->start()
+#3 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(156): yii\swiftmailer\Mailer->getSwiftMailer()
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#6 /var/www/project/console/controllers/MailerController.php(17): yii\mail\BaseMessage->send()
+#7 [internal function]: console\controllers\MailerController->actionSend()
+#8 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#11 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /var/www/project/yii(23): yii\base\Application->run()
+#16 {main}
+2018-12-19 06:34:31 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545201271.7926
+    'REQUEST_TIME' => 1545201271
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 06:51:44 [-][-][-][error][Swift_TransportException] Swift_TransportException: Failed to authenticate on SMTP server with username "testyii2.2018@gmail.com" using 3 possible authenticators. Authenticator LOGIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t81sm3685265lfe.84 - gsmtp
+" in /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('OTQxMCA3MTkw\r\n', Array, Array, false, NULL)
+#2 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php(36): Swift_Transport_EsmtpTransport->executeCommand('OTQxMCA3MTkw\r\n', Array)
+#3 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_LoginAuthenticator->authenticate(Object(Swift_SmtpTransport), 'testyii2.2018@g...', '9410 7190')
+#4 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(113): Swift_Transport_AbstractSmtpTransport->start()
+#7 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(156): yii\swiftmailer\Mailer->getSwiftMailer()
+#8 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /var/www/project/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /var/www/project/console/controllers/MailerController.php(17): yii\mail\BaseMessage->send()
+#11 [internal function]: console\controllers\MailerController->actionSend()
+#12 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#16 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#17 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#18 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/project/yii(23): yii\base\Application->run()
+#20 {main}. Authenticator PLAIN returned Swift_TransportException: Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t81sm3685265lfe.84 - gsmtp
+" in /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('AUTH PLAIN dGVz...', Array, Array, false, NULL)
+#2 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php(35): Swift_Transport_EsmtpTransport->executeCommand('AUTH PLAIN dGVz...', Array)
+#3 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_PlainAuthenticator->authenticate(Object(Swift_SmtpTransport), 'testyii2.2018@g...', '9410 7190')
+#4 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(113): Swift_Transport_AbstractSmtpTransport->start()
+#7 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(156): yii\swiftmailer\Mailer->getSwiftMailer()
+#8 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /var/www/project/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /var/www/project/console/controllers/MailerController.php(17): yii\mail\BaseMessage->send()
+#11 [internal function]: console\controllers\MailerController->actionSend()
+#12 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#16 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#17 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#18 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/project/yii(23): yii\base\Application->run()
+#20 {main}. Authenticator XOAUTH2 returned Swift_TransportException: Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t81sm3685265lfe.84 - gsmtp
+" in /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:457
+Stack trace:
+#0 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(341): Swift_Transport_AbstractSmtpTransport->assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(305): Swift_Transport_AbstractSmtpTransport->executeCommand('RSET\r\n', Array, Array, false, NULL)
+#2 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(49): Swift_Transport_EsmtpTransport->executeCommand('RSET\r\n', Array)
+#3 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php(177): Swift_Transport_Esmtp_Auth_XOAuth2Authenticator->authenticate(Object(Swift_SmtpTransport), 'testyii2.2018@g...', '9410 7190')
+#4 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#5 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#6 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(113): Swift_Transport_AbstractSmtpTransport->start()
+#7 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(156): yii\swiftmailer\Mailer->getSwiftMailer()
+#8 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#9 /var/www/project/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#10 /var/www/project/console/controllers/MailerController.php(17): yii\mail\BaseMessage->send()
+#11 [internal function]: console\controllers\MailerController->actionSend()
+#12 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#16 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#17 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#18 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /var/www/project/yii(23): yii\base\Application->run()
+#20 {main}. in /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:191
+Stack trace:
+#0 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(371): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /var/www/project/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(148): Swift_Transport_EsmtpTransport->doHeloCommand()
+#2 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(113): Swift_Transport_AbstractSmtpTransport->start()
+#3 /var/www/project/vendor/yiisoft/yii2-swiftmailer/src/Mailer.php(156): yii\swiftmailer\Mailer->getSwiftMailer()
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(263): yii\swiftmailer\Mailer->sendMessage(Object(yii\swiftmailer\Message))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMessage.php(49): yii\mail\BaseMailer->send(Object(yii\swiftmailer\Message))
+#6 /var/www/project/console/controllers/MailerController.php(17): yii\mail\BaseMessage->send()
+#7 [internal function]: console\controllers\MailerController->actionSend()
+#8 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#11 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /var/www/project/yii(23): yii\base\Application->run()
+#16 {main}
+2018-12-19 06:51:40 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545202300.7423
+    'REQUEST_TIME' => 1545202300
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 08:20:06 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: result in /var/www/project/console/models/news.php:24
+Stack trace:
+#0 /var/www/project/console/models/news.php(24): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/projec...', 24, Array)
+#1 /var/www/project/console/models/news.php(13): console\models\news::prepareList(Array)
+#2 /var/www/project/console/controllers/MailerController.php(13): console\models\news::getList()
+#3 [internal function]: console\controllers\MailerController->actionSend()
+#4 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/project/yii(23): yii\base\Application->run()
+#12 {main}
+2018-12-19 08:20:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545207605.9912
+    'REQUEST_TIME' => 1545207605
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 08:25:55 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: result in /var/www/project/console/models/news.php:24
+Stack trace:
+#0 /var/www/project/console/models/news.php(24): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/projec...', 24, Array)
+#1 /var/www/project/console/models/news.php(13): console\models\news::prepareList(Array)
+#2 /var/www/project/console/controllers/MailerController.php(13): console\models\news::getList()
+#3 [internal function]: console\controllers\MailerController->actionSend()
+#4 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/project/yii(23): yii\base\Application->run()
+#12 {main}
+2018-12-19 08:25:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545207955.05
+    'REQUEST_TIME' => 1545207955
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 08:28:09 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '$result' (T_VARIABLE) in /var/www/project/console/models/news.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\models\\...')
+#1 /var/www/project/console/controllers/MailerController.php(13): spl_autoload_call('console\\models\\...')
+#2 [internal function]: console\controllers\MailerController->actionSend()
+#3 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /var/www/project/yii(23): yii\base\Application->run()
+#11 {main}
+2018-12-19 08:28:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545208089.3018
+    'REQUEST_TIME' => 1545208089
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 08:28:41 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: result in /var/www/project/console/models/news.php:24
+Stack trace:
+#0 /var/www/project/console/models/news.php(24): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/projec...', 24, Array)
+#1 /var/www/project/console/models/news.php(13): console\models\news::prepareList(Array)
+#2 /var/www/project/console/controllers/MailerController.php(13): console\models\news::getList()
+#3 [internal function]: console\controllers\MailerController->actionSend()
+#4 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/project/yii(23): yii\base\Application->run()
+#12 {main}
+2018-12-19 08:28:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545208121.6158
+    'REQUEST_TIME' => 1545208121
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 08:31:50 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: result in /var/www/project/console/models/news.php:24
+Stack trace:
+#0 /var/www/project/console/models/news.php(24): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/projec...', 24, Array)
+#1 /var/www/project/console/models/news.php(13): console\models\news::prepareList(Array)
+#2 /var/www/project/console/controllers/MailerController.php(13): console\models\news::getList()
+#3 [internal function]: console\controllers\MailerController->actionSend()
+#4 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/project/yii(23): yii\base\Application->run()
+#12 {main}
+2018-12-19 08:31:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545208310.209
+    'REQUEST_TIME' => 1545208310
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 08:32:32 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: result in /var/www/project/console/models/news.php:24
+Stack trace:
+#0 /var/www/project/console/models/news.php(24): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/projec...', 24, Array)
+#1 /var/www/project/console/models/news.php(13): console\models\news::prepareList(Array)
+#2 /var/www/project/console/controllers/MailerController.php(13): console\models\news::getList()
+#3 [internal function]: console\controllers\MailerController->actionSend()
+#4 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/project/yii(23): yii\base\Application->run()
+#12 {main}
+2018-12-19 08:32:32 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545208352.492
+    'REQUEST_TIME' => 1545208352
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 08:33:57 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: result in /var/www/project/console/models/news.php:24
+Stack trace:
+#0 /var/www/project/console/models/news.php(24): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/projec...', 24, Array)
+#1 /var/www/project/console/models/news.php(13): console\models\news::prepareList(Array)
+#2 /var/www/project/console/controllers/MailerController.php(13): console\models\news::getList()
+#3 [internal function]: console\controllers\MailerController->actionSend()
+#4 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/project/yii(23): yii\base\Application->run()
+#12 {main}
+2018-12-19 08:33:56 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545208436.7854
+    'REQUEST_TIME' => 1545208436
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 08:37:27 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: result in /var/www/project/console/models/News.php:24
+Stack trace:
+#0 /var/www/project/console/models/News.php(24): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/projec...', 24, Array)
+#1 /var/www/project/console/models/News.php(13): console\models\news::prepareList(Array)
+#2 /var/www/project/console/controllers/MailerController.php(13): console\models\news::getList()
+#3 [internal function]: console\controllers\MailerController->actionSend()
+#4 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/project/yii(23): yii\base\Application->run()
+#12 {main}
+2018-12-19 08:37:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545208647.0573
+    'REQUEST_TIME' => 1545208647
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 08:39:53 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '=', expecting ';' in /var/www/project/console/models/News.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\models\\...')
+#1 /var/www/project/console/controllers/MailerController.php(13): spl_autoload_call('console\\models\\...')
+#2 [internal function]: console\controllers\MailerController->actionSend()
+#3 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /var/www/project/yii(23): yii\base\Application->run()
+#11 {main}
+2018-12-19 08:39:53 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545208793.742
+    'REQUEST_TIME' => 1545208793
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send'
+    ]
+    'argc' => 2
+]
+2018-12-19 12:36:09 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '$today' (T_VARIABLE) in /var/www/project/console/controllers/MailerController.php:34
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\control...')
+#1 [internal function]: spl_autoload_call('console\\control...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/Module.php(637): class_exists('console\\control...')
+#3 /var/www/project/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('mailer')
+#4 /var/www/project/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('time')
+#5 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/time', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/time', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /var/www/project/yii(23): yii\base\Application->run()
+#9 {main}
+2018-12-19 12:36:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4048 22'
+    'OLDPWD' => '/var/www/project/frontend'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4048 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545222969.3255
+    'REQUEST_TIME' => 1545222969
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/time'
+    ]
+    'argc' => 2
+]
+2018-12-20 10:55:59 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: mailer/sendemployee in /var/www/project/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('sendemployee', Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('sendemployee', Array)
+#2 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/sendempl...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/sendempl...', Array)
+#4 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /var/www/project/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "mailer/sendemployee". in /var/www/project/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/sendempl...', Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /var/www/project/yii(23): yii\base\Application->run()
+#3 {main}
+2018-12-20 10:55:59 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '5'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4734 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4734 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545303359.2919
+    'REQUEST_TIME' => 1545303359
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/sendemployee'
+    ]
+    'argc' => 2
+]
+2018-12-20 10:57:56 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: fio in /var/www/project/console/views/mailer/salaryList.php:4
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(4): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 4, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(32): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-20 10:57:56 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '5'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4734 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4734 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545303476.3493
+    'REQUEST_TIME' => 1545303476
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-20 10:58:40 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: fio in /var/www/project/console/views/mailer/salaryList.php:4
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(4): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 4, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(32): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-20 10:58:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '5'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4734 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4734 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545303519.8094
+    'REQUEST_TIME' => 1545303519
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-20 11:11:49 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: fio in /var/www/project/console/views/mailer/salaryList.php:4
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(4): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 4, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(32): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-20 11:11:49 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '5'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4734 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4734 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545304309.7324
+    'REQUEST_TIME' => 1545304309
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-20 11:12:30 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: fio in /var/www/project/console/views/mailer/salaryList.php:4
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(4): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 4, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(32): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-20 11:12:29 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '5'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4734 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4734 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545304349.8332
+    'REQUEST_TIME' => 1545304349
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-20 11:47:06 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Use of undefined constant employees - assumed 'employees' (this will throw an Error in a future version of PHP) in /var/www/project/console/controllers/MailerController.php:35
+Stack trace:
+#0 /var/www/project/console/controllers/MailerController.php(35): yii\base\ErrorHandler->handleError(2, 'Use of undefine...', '/var/www/projec...', 35, Array)
+#1 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#2 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#5 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /var/www/project/yii(23): yii\base\Application->run()
+#10 {main}
+2018-12-20 11:47:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '5'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4734 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4734 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545306426.0538
+    'REQUEST_TIME' => 1545306426
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-20 11:47:38 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: fio in /var/www/project/console/views/mailer/salaryList.php:4
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(4): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 4, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-20 11:47:38 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '5'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4734 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4734 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545306457.9745
+    'REQUEST_TIME' => 1545306457
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-20 11:49:16 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: email in /var/www/project/console/models/Sender_Employee.php:22
+Stack trace:
+#0 /var/www/project/console/models/Sender_Employee.php(22): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 22, Array)
+#1 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#2 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#3 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /var/www/project/yii(23): yii\base\Application->run()
+#11 {main}
+2018-12-20 11:49:16 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '5'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4734 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4734 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545306556.1209
+    'REQUEST_TIME' => 1545306556
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-20 11:52:48 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: employees in /var/www/project/console/views/mailer/salaryList.php:3
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(3): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/projec...', 3, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-20 11:52:48 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '5'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 4734 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 4734 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545306768.7807
+    'REQUEST_TIME' => 1545306768
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 05:37:07 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: fio in /var/www/project/console/views/mailer/salaryList.php:7
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(7): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 7, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-21 05:37:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545370626.0913
+    'REQUEST_TIME' => 1545370626
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 05:42:37 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: fio in /var/www/project/console/views/mailer/salaryList.php:3
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(3): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 3, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-21 05:42:37 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545370957.6571
+    'REQUEST_TIME' => 1545370957
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 05:43:11 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: fio in /var/www/project/console/views/mailer/salaryList.php:3
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(3): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 3, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-21 05:43:11 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545370991.7167
+    'REQUEST_TIME' => 1545370991
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 05:43:46 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: salary in /var/www/project/console/views/mailer/salaryList.php:3
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(3): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 3, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-21 05:43:46 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545371026.0915
+    'REQUEST_TIME' => 1545371026
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 06:13:02 [-][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'console\models\Employee' in file: /var/www/project/console/models/Employee.php. Namespace missing? in /var/www/project/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\models\\...')
+#1 /var/www/project/console/controllers/MailerController.php(33): spl_autoload_call('console\\models\\...')
+#2 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#3 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /var/www/project/yii(23): yii\base\Application->run()
+#11 {main}
+2018-12-21 06:13:02 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545372782.5981
+    'REQUEST_TIME' => 1545372782
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 06:13:49 [-][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'console\models\Employee' in file: /var/www/project/console/models/Employee.php. Namespace missing? in /var/www/project/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\models\\...')
+#1 /var/www/project/console/controllers/MailerController.php(33): spl_autoload_call('console\\models\\...')
+#2 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#3 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /var/www/project/yii(23): yii\base\Application->run()
+#11 {main}
+2018-12-21 06:13:49 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545372829.6597
+    'REQUEST_TIME' => 1545372829
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 06:16:28 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in /var/www/project/console/models/Sender_Employee.php:25
+Stack trace:
+#0 /var/www/project/console/models/Sender_Employee.php(25): yii\base\ErrorHandler->handleError(8, 'Array to string...', '/var/www/projec...', 25, Array)
+#1 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#2 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#3 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /var/www/project/yii(23): yii\base\Application->run()
+#11 {main}
+2018-12-21 06:16:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545372987.6321
+    'REQUEST_TIME' => 1545372987
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 06:32:27 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: index in /var/www/project/console/views/mailer/salaryList.php:7
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(7): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 7, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-21 06:32:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545373947.3074
+    'REQUEST_TIME' => 1545373947
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 06:36:39 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: index in /var/www/project/console/views/mailer/salaryList.php:8
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(8): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 8, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-21 06:36:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545374199.2484
+    'REQUEST_TIME' => 1545374199
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 06:37:31 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: fio in /var/www/project/console/views/mailer/salaryList.php:8
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(8): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 8, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-21 06:37:31 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545374251.5175
+    'REQUEST_TIME' => 1545374251
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 06:39:30 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Illegal string offset 'fio' in /var/www/project/console/views/mailer/salaryList.php:8
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(8): yii\base\ErrorHandler->handleError(2, 'Illegal string ...', '/var/www/projec...', 8, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-21 06:39:30 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545374370.1391
+    'REQUEST_TIME' => 1545374370
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 06:49:27 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Illegal string offset 'fio' in /var/www/project/console/views/mailer/salaryList.php:8
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(8): yii\base\ErrorHandler->handleError(2, 'Illegal string ...', '/var/www/projec...', 8, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-21 06:49:26 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545374966.8735
+    'REQUEST_TIME' => 1545374966
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 07:01:58 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: email in /var/www/project/console/models/Sender_Employee.php:23
+Stack trace:
+#0 /var/www/project/console/models/Sender_Employee.php(23): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 23, Array)
+#1 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#2 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#3 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /var/www/project/yii(23): yii\base\Application->run()
+#11 {main}
+2018-12-21 07:01:58 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545375718.2708
+    'REQUEST_TIME' => 1545375718
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 07:05:36 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/project/console/models/Sender_Employee.php:25
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('console\\models\\...')
+#1 /var/www/project/console/controllers/MailerController.php(35): spl_autoload_call('console\\models\\...')
+#2 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#3 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#6 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#7 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#8 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#9 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /var/www/project/yii(23): yii\base\Application->run()
+#11 {main}
+2018-12-21 07:05:36 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545375936.8138
+    'REQUEST_TIME' => 1545375936
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 09:20:54 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: fio in /var/www/project/console/views/mailer/salaryList.php:15
+Stack trace:
+#0 /var/www/project/console/views/mailer/salaryList.php(15): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/var/www/projec...', 15, Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(336): require('/var/www/projec...')
+#2 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#3 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#4 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#5 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#6 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#7 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#8 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#9 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#14 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#15 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#16 /var/www/project/yii(23): yii\base\Application->run()
+#17 {main}
+2018-12-21 09:20:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545384054.2999
+    'REQUEST_TIME' => 1545384054
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 09:21:34 [-][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use [] for reading in /var/www/project/console/views/mailer/salaryList.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-12-21 09:21:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545384093.9174
+    'REQUEST_TIME' => 1545384093
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 09:23:43 [-][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use [] for reading in /var/www/project/console/views/mailer/salaryList.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-12-21 09:23:43 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545384223.4186
+    'REQUEST_TIME' => 1545384223
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
+2018-12-21 09:24:45 [-][-][-][error][ParseError] ParseError: syntax error, unexpected '**' (T_POW), expecting end of file in /var/www/project/console/views/mailer/salaryList.php:18
+Stack trace:
+#0 /var/www/project/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/var/www/projec...', Array)
+#1 /var/www/project/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/projec...', Array, Object(yii\swiftmailer\Mailer))
+#2 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(302): yii\base\View->render('/mailer/salaryL...', Array, Object(yii\swiftmailer\Mailer))
+#3 /var/www/project/vendor/yiisoft/yii2/mail/BaseMailer.php(194): yii\mail\BaseMailer->render('/mailer/salaryL...', Array, 'layouts/html')
+#4 /var/www/project/console/models/Sender_Employee.php(19): yii\mail\BaseMailer->compose('/mailer/salaryL...', Array)
+#5 /var/www/project/console/controllers/MailerController.php(35): console\models\Sender_Employee::run(Array, Array)
+#6 [internal function]: console\controllers\MailerController->actionSendEmployee()
+#7 /var/www/project/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/project/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/project/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('send-employee', Array)
+#10 /var/www/project/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('send-employee', Array)
+#11 /var/www/project/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('mailer/send-emp...', Array)
+#12 /var/www/project/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('mailer/send-emp...', Array)
+#13 /var/www/project/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /var/www/project/yii(23): yii\base\Application->run()
+#15 {main}
+2018-12-21 09:24:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'MANPATH' => ':/opt/puppetlabs/puppet/share/man'
+    'XDG_SESSION_ID' => '7'
+    'rvm_bin_path' => '/usr/local/rvm/bin'
+    'GEM_HOME' => '/usr/local/rvm/gems/ruby-2.4.5'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'IRBRC' => '/usr/local/rvm/rubies/ruby-2.4.5/.irbrc'
+    'SSH_CLIENT' => '10.0.2.2 3857 22'
+    'OLDPWD' => '/'
+    'MY_RUBY_HOME' => '/usr/local/rvm/rubies/ruby-2.4.5'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'vagrant'
+    '_system_type' => 'Linux'
+    'rvm_path' => '/usr/local/rvm'
+    'rvm_prefix' => '/usr/local'
+    'MAIL' => '/var/mail/vagrant'
+    'PATH' => '/usr/local/rvm/gems/ruby-2.4.5/bin:/usr/local/rvm/gems/ruby-2.4.5@global/bin:/usr/local/rvm/rubies/ruby-2.4.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin'
+    'PWD' => '/var/www/project'
+    'LANG' => 'en_US.UTF-8'
+    '_system_arch' => 'x86_64'
+    'PS1' => '\\n\\[$bold\\]\\[$black\\][\\[$dk_blue\\]\\@\\[$black\\]]-[\\[$green\\]\\u\\[$yellow\\]@\\[$green\\]\\h\\[$black\\]]-[\\[$pink\\]\\w\\[$black\\]]\\[\\033[0;33m\\]$(__vcs_name) \\[\\033[00m\\]\\[$reset\\]\\n\\[$reset\\]\\$ '
+    '_system_version' => '16.04'
+    'rvm_version' => '1.29.6 (latest)'
+    'SHLVL' => '1'
+    'HOME' => '/home/vagrant'
+    'LOGNAME' => 'vagrant'
+    'GEM_PATH' => '/usr/local/rvm/gems/ruby-2.4.5:/usr/local/rvm/gems/ruby-2.4.5@global'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'SSH_CONNECTION' => '10.0.2.2 3857 10.0.2.15 22'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'RUBY_VERSION' => 'ruby-2.4.5'
+    '_system_name' => 'Ubuntu'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1545384285.5035
+    'REQUEST_TIME' => 1545384285
+    'argv' => [
+        0 => 'yii'
+        1 => 'mailer/send-employee'
+    ]
+    'argc' => 2
+]
